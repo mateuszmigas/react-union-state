@@ -80,7 +80,7 @@ export const MyComponent = () => {
 
 ## Installation
 
-https://www.npmjs.com/package/@mateuszmigas/dropdown
+https://www.npmjs.com/package/@mateuszmigas/react-union-state
 
 `npm i @mateuszmigas/react-union-state`
 
