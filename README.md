@@ -41,12 +41,13 @@ export const MyComponent = () => {
         if (action.type === "ChangeAge") {
             return {
                 ...state,
-                age: action.payload.value,
+                age: action.value,
             };
+        }
         else if (action.type === "ChangeFirstName") {
             return {
                 ...state,
-                firstName: action.payload.value,
+                firstName: action.value,
             };
         }
         else return state;
